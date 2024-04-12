@@ -1,3 +1,25 @@
+/* Search Bar Styles */
+.search-bar {
+    margin-bottom: 20px; /* Move the search bar above the categories */
+}
+
+.search-bar input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    width: 40px;
+    padding: 10px;
+    background-color: #52057B;
+    color: #BC6FF1;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
 /* Loading Screen Styles */
 .loading-screen {
     display: flex;
@@ -61,27 +83,6 @@ body {
 
 .sidebar h2 {
     color: #52057B;
-}
-
-.search-bar {
-    margin-top: 10px;
-}
-
-.search-bar input[type="text"] {
-    width: calc(100% - 40px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-}
-
-.search-bar button {
-    width: 40px;
-    padding: 10px;
-    background-color: #52057B;
-    color: #BC6FF1;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
 }
 
 .main-content {
