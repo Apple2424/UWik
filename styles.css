@@ -20,21 +20,6 @@
     cursor: pointer;
 }
 
-/* Loading Screen Styles */
-.loading-screen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #000000;
-    color: #BC6FF1;
-    font-family: 'Lora', serif;
-}
-
-.loading-screen h1 {
-    font-size: 24px;
-}
-
 /* Home Screen Styles */
 body {
     margin: 0;
