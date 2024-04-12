@@ -71,7 +71,7 @@ body {
 }
 
 .sidebar {
-    width: 30%;
+    width: 25%;
 }
 
 .sidebar-box {
@@ -99,9 +99,13 @@ body {
     color: #52057B;
 }
 
+/* Footer Styles */
 .footer {
     background-color: #52057B;
     color: #BC6FF1;
     padding: 20px 0;
     text-align: center;
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
 }
