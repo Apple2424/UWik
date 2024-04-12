@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 bopDots(index + 1);
             }, interval);
         } else {
-            // Once all dots have been "bopped", reset the animation
+            // Once all dots have been "bopped", redirect to the homepage after 5 seconds
             setTimeout(() => {
-                revealText(text.length + 1);
-            }, interval * 2);
+                window.location.href = "home.html";
+            }, 5000); // 5 seconds delay
         }
     }
     
