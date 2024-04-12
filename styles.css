@@ -2,6 +2,8 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: #000000; /* Set background color to black */
+    color: #BC6FF1; /* Set text color to a light purple */
 }
 
 .loading-screen {
@@ -9,5 +11,7 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: #f0f0f0;
+    background-color: #000000; /* Set background color to black */
+    color: #BC6FF1; /* Set text color to a light purple */
+    border: 2px solid #52057B; /* Add border with dark purple color */
 }
