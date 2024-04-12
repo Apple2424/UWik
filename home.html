@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - UEdit</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="/assets/css/icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <style>
         /* Add your custom styles here */
         body {
@@ -17,7 +16,6 @@
         }
 
         /* Add specific styles for your home page content */
-        /* Example: */
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -28,35 +26,77 @@
     </style>
 </head>
 <body>
-    <nav id="sidebar" aria-label="Main Navigation">
-        <!-- Sidebar content -->
-        <!-- You can add your sidebar content here -->
-    </nav>
-
     <header id="page-header" aria-label="Page Header">
         <!-- Header content -->
-        <!-- You can add your header content here -->
+        <div class="container">
+            <h1>Welcome to Our Website!</h1>
+            <nav id="navbar" class="navbar" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <!-- Add links to other pages as needed -->
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div id="page-content" class="container">
-        <!-- Main content -->
-        <!-- You can add your main content here -->
-        <h1>Welcome to UEdit!</h1>
-        <p>This is your central hub for Unturned enthusiasts.</p>
-        <!-- Example content -->
-        <ul>
-            <li><a href="/faq">FAQ</a></li>
-            <!-- Add more links or content as needed -->
-        </ul>
+    <div id="page-container" class="sidebar-o sidebar-o-xs sidebar-dark enable-page-overlay side-scroll page-header-fixed page-header-dark page-footer-fixed page-header-dark dark-mode">
+        <nav id="sidebar" aria-label="Main Navigation">
+            <div class="smini-visible-block">
+                <div class="content-header">
+                    <a class="fw-semibold text-white tracking-wide" href="/">U<span class="opacity-75">E</span></a>
+                </div>
+            </div>
+            <div class="smini-hidden bg-black-10">
+                <div class="content-header justify-content-lg-center">
+                    <a class="fw-semibold text-white tracking-wide" href="/">U<span class="opacity-75">Edit</span></a>
+                    <div class="d-lg-none">
+                        <button type="button" class="btn btn-sm btn-alt-secondary d-lg-none" data-toggle="layout" data-action="sidebar_close">
+                            <i class="fa fa-times-circle"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="js-sidebar-scroll">
+                <div class="content-side pe-1 ps-1">
+                    <ul class="nav-main">
+                        <li class="nav-main-heading">UEdit</li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link active" href="/">
+                                <i class="nav-main-link-icon text- mdi mdi-home"></i>
+                                <span class="nav-main-link-name">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="/faq">
+                                <i class="nav-main-link-icon text- mdi mdi-frequently-asked-questions"></i>
+                                <span class="nav-main-link-name">FAQ</span>
+                            </a>
+                        </li>
+                        <!-- Add more sidebar items as needed -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main id="page-content" class="container">
+            <!-- Main content -->
+            <div class="news-box">
+                <h2>Latest News</h2>
+                <div class="news">
+                    <!-- Add news articles here -->
+                </div>
+            </div>
+        </main>
+
+        <footer id="page-footer" aria-label="Page Footer" class="footer">
+            <!-- Footer content -->
+            <div class="container">
+                <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+            </div>
+        </footer>
     </div>
 
-    <footer id="page-footer" aria-label="Page Footer">
-        <!-- Footer content -->
-        <!-- You can add your footer content here -->
-    </footer>
-
-    <!-- Include any JavaScript files/scripts here if needed -->
-    <script src="https://analytic.teemocell.dev/js/script.js" data-host="https://analytic.teemocell.dev" data-dnt="false" id="ZwSg9rf6GA" async defer></script>
-    <!-- Add more scripts as needed -->
+    <!-- Font Awesome script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
 </html>
