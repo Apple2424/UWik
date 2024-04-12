@@ -1,19 +1,95 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Lora', serif;
-    background-color: #000000; /* Set background color to black */
-    color: #BC6FF1; /* Set text color to a light purple */
+/* Add your custom styles here */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.loading-screen {
+.header {
+    background-color: #52057B;
+    color: #BC6FF1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #BC6FF1;
+    text-decoration: none;
+}
+
+.content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    font-family: 'Lora', serif;
-    background-color: #000000; /* Set background color to black */
-    color: #BC6FF1; /* Set text color to a light purple */
-    border: 2px solid #52057B; /* Add border with dark purple color */
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.sidebar-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.sidebar h2 {
+    color: #52057B;
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+.search-bar input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    width: 40px;
+    padding: 10px;
+    background-color: #52057B;
+    color: #BC6FF1;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 65%;
+}
+
+.news-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.news-box h2 {
+    color: #52057B;
+}
+
+.news {
+    /* Style news articles as needed */
+}
+
+.footer {
+    background-color: #52057B;
+    color: #BC6FF1;
+    padding: 20px 0;
+    text-align: center;
 }
