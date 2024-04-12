@@ -4,10 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <!-- You can link any additional stylesheets or scripts here -->
+    <!-- Add the font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- Link your custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1>Welcome to Our Website!</h1>
-    <p>This is the home page content. You can add any content you like here.</p>
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to Our Website!</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <!-- Add links to other pages as needed -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <aside class="sidebar">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Modding</a></li>
+                <li><a href="#">Plugin</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Server</a></li>
+                <li><a href="#">Documentation</a></li>
+                <!-- Add more categories as needed -->
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <h2>Latest News</h2>
+            <div class="news">
+                <!-- Add news articles here -->
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
 </html>
